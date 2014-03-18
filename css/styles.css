@@ -1,0 +1,12 @@
+.weatherResults li:empty{
+  display: none;
+}
+
+.cityName {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cityName + img {
+  vertical-align: middle
+}
